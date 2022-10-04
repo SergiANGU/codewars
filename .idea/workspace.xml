@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b16fca2a-e356-4943-9fc6-9bce6fc76a02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SixKyu/BitCounting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SixKyu/SixKyuExam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SixKyu/BitCountingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SixKyu/SixKyuExamTest.java" afterDir="false" />
+    <list default="true" id="b16fca2a-e356-4943-9fc6-9bce6fc76a02" name="Changes" comment="Bit counting and SixKyuExam">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SevenKyu/Maskify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SevenKyu/MaskifyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SixKyu/BitCounting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SixKyu/BitCounting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +49,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.SevenKyu" />
       <recent name="org.example.SixKyu" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BitCountingTest.testGame">
+  <component name="RunManager" selected="JUnit.MaskifyTest.testSolution">
     <configuration name="BitCountingTest.testGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -72,6 +65,22 @@
       <option name="PACKAGE_NAME" value="org.example.SixKyu" />
       <option name="MAIN_CLASS_NAME" value="org.example.SixKyu.BitCountingTest" />
       <option name="METHOD_NAME" value="testGame" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaskifyTest.testSolution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.SevenKyu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.SevenKyu" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SevenKyu.MaskifyTest" />
+      <option name="METHOD_NAME" value="testSolution" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,6 +135,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MaskifyTest.testSolution" />
         <item itemvalue="JUnit.BitCountingTest.testGame" />
         <item itemvalue="JUnit.SixKyuExamTest.testNegativo" />
         <item itemvalue="JUnit.SixKyuExamTest" />
@@ -142,6 +152,14 @@
       <option name="presentableId" value="Default" />
       <updated>1664877803129</updated>
     </task>
+    <task id="LOCAL-00001" summary="Bit counting and SixKyuExam">
+      <created>1664882219303</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664882219303</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,5 +172,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Bit counting and SixKyuExam" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bit counting and SixKyuExam" />
   </component>
 </project>
