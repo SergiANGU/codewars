@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b16fca2a-e356-4943-9fc6-9bce6fc76a02" name="Changes" comment="MaskifyJava">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FiveKyu/DirReduction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SevenKyu/SumOfNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/FiveKyu/DirReductionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SevenKyu/SumOfNumbersTest.java" afterDir="false" />
+    <list default="true" id="b16fca2a-e356-4943-9fc6-9bce6fc76a02" name="Changes" comment="DirReduction">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SixKyu/EnoughIsEnough.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SixKyu/EnoughIsEnoughTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,12 +48,12 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.SixKyu" />
       <recent name="org.example.FiveKyu" />
       <recent name="org.example.SevenKyu" />
-      <recent name="org.example.SixKyu" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DirReductionTest.testSimpleDirReduc">
+  <component name="RunManager" selected="JUnit.EnoughIsEnoughTest.deleteNth">
     <configuration name="DirReductionTest.givedAnArryWhenProcesedReturnOnlyWestInLastPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -88,17 +86,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaskifyTest.testSolution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EnoughIsEnoughTest.deleteNth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.SevenKyu.*" />
+          <option name="PATTERN" value="org.example.SixKyu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.SevenKyu" />
-      <option name="MAIN_CLASS_NAME" value="org.example.SevenKyu.MaskifyTest" />
-      <option name="METHOD_NAME" value="testSolution" />
+      <option name="PACKAGE_NAME" value="org.example.SixKyu" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SixKyu.EnoughIsEnoughTest" />
+      <option name="METHOD_NAME" value="deleteNth" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EnoughIsEnoughTest.deleteNth" />
         <item itemvalue="JUnit.DirReductionTest.testSimpleDirReduc" />
         <item itemvalue="JUnit.DirReductionTest.givedAnArryWhenProcesedReturnOnlyWestInLastPosition" />
         <item itemvalue="JUnit.SumOfNumbersTest" />
         <item itemvalue="JUnit.SumOfNumbersTest.Test1" />
-        <item itemvalue="JUnit.MaskifyTest.testSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664883738456</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="DirReduction">
+      <created>1664980839150</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664980839150</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +197,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Bit counting and SixKyuExam" />
     <MESSAGE value="MaskifyJava" />
-    <option name="LAST_COMMIT_MESSAGE" value="MaskifyJava" />
+    <MESSAGE value="DirReduction" />
+    <option name="LAST_COMMIT_MESSAGE" value="DirReduction" />
   </component>
 </project>
