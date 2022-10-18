@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b16fca2a-e356-4943-9fc6-9bce6fc76a02" name="Changes" comment="DirReduction">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SixKyu/EnoughIsEnough.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SixKyu/EnoughIsEnoughTest.java" afterDir="false" />
+    <list default="true" id="b16fca2a-e356-4943-9fc6-9bce6fc76a02" name="Changes" comment="Try the odd">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SevenKyu/AnotherCardGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SevenKyu/AnotherCardGameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,12 +48,12 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.SevenKyu" />
       <recent name="org.example.SixKyu" />
       <recent name="org.example.FiveKyu" />
-      <recent name="org.example.SevenKyu" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EnoughIsEnoughTest.deleteNth">
+  <component name="RunManager" selected="JUnit.SolutionTest.exampleTest1">
     <configuration name="DirReductionTest.givedAnArryWhenProcesedReturnOnlyWestInLastPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -102,6 +102,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest.exampleTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.SixKyu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.SixKyu" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SixKyu.SolutionTest" />
+      <option name="METHOD_NAME" value="exampleTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SumOfNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -117,29 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfNumbersTest.Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.SevenKyu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.SevenKyu" />
-      <option name="MAIN_CLASS_NAME" value="org.example.SevenKyu.SumOfNumbersTest" />
-      <option name="METHOD_NAME" value="Test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest.exampleTest1" />
         <item itemvalue="JUnit.EnoughIsEnoughTest.deleteNth" />
         <item itemvalue="JUnit.DirReductionTest.testSimpleDirReduc" />
         <item itemvalue="JUnit.DirReductionTest.givedAnArryWhenProcesedReturnOnlyWestInLastPosition" />
         <item itemvalue="JUnit.SumOfNumbersTest" />
-        <item itemvalue="JUnit.SumOfNumbersTest.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +180,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664980839150</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="FiltredJava">
+      <created>1664982183550</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664982183550</updated>
+    </task>
+    <task id="LOCAL-00006" summary="FiltredJava">
+      <created>1665091829591</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665091829591</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Try the odd">
+      <created>1665092353987</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665092353987</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +219,8 @@
     <MESSAGE value="Bit counting and SixKyuExam" />
     <MESSAGE value="MaskifyJava" />
     <MESSAGE value="DirReduction" />
-    <option name="LAST_COMMIT_MESSAGE" value="DirReduction" />
+    <MESSAGE value="FiltredJava" />
+    <MESSAGE value="Try the odd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try the odd" />
   </component>
 </project>
